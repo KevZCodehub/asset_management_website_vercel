@@ -2,6 +2,7 @@ import Section from "./components/Section";
 import AnimatedText from "./components/AnimatedText";
 import PerformanceChart from "./components/PerformanceChart";
 import TurnoverSlider from "./components/TurnoverSlider";
+import InteractiveDiagram from "./components/InteractiveDiagram";
 
 export default function Page() {
   return (
@@ -43,7 +44,15 @@ export default function Page() {
         </div>
       </Section>
 
-      {/* 4. Results - Black */}
+      {/* 4. The Model - Black */}
+      <Section theme="black">
+        <div className="max-w-6xl mx-auto px-4 w-full">
+          <h2 className="text-3xl sm:text-5xl font-bold mb-8 text-[#800000]">The Model</h2>
+          <InteractiveDiagram />
+        </div>
+      </Section>
+
+      {/* 5. Results - Black */}
       <Section theme="black">
         <div className="max-w-6xl mx-auto px-4 w-full">
           <h2 className="text-3xl sm:text-5xl font-bold mb-8 text-[#800000]">
@@ -58,7 +67,7 @@ export default function Page() {
         </div>
       </Section>
 
-      {/* 5. Discussion - Red */}
+      {/* 6. Discussion - Red */}
       <Section theme="red">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl sm:text-5xl font-bold mb-6 text-white">
