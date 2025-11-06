@@ -62,7 +62,7 @@ export default function Page() {
       <Section theme="red">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl sm:text-5xl font-bold mb-6 text-white">
-            Key Takeaways
+            TEST
           </h2>
           <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto">
             This demo represents our live investment process visualization for the McGill FIAM Hackathon.
