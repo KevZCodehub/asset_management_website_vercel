@@ -10,7 +10,7 @@ export default function Page() {
        {/* 1. Hero - Red */}
        <Section theme="red">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <AnimatedText title="Predicting Fundamentals — Not Just Returns" />
+          <AnimatedText title="Protecting Capital and Driving Long-Term Success" />
           <p className="mt-6 text-xl sm:text-2xl text-white/90">
             A data-driven approach to investment strategy
           </p>
@@ -32,7 +32,7 @@ export default function Page() {
               </p>
             </div>
             <div>
-              <p className="text-3xl font-semibold">10.93%</p>
+              <p className="text-3xl font-semibold">6.54%</p>
               <p className="text-white/70 text-sm mt-1">Annualized Net Alpha</p>
             </div>
             <div>

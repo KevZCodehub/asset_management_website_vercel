@@ -34,7 +34,7 @@ const BOXES: Box[] = [
   { key: "portfolio", label: "Portfolio Building", color: "red" },
   { key: "llmSentiment", label: "LLM Sentiment Score", color: "blue" },
   { key: "finalProcessing", label: "Final Data Processing", color: "green" },
-  { key: "ibrkExec", label: "IBRK Exec.", color: "red" },
+  { key: "ibrkExec", label: "IBKR Exec.", color: "red" },
 ];
 
 function colorClasses(color: Box["color"]) {
