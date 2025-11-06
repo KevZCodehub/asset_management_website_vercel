@@ -6,7 +6,7 @@ const MODULE_INFO: Record<string, string> = {
   binaryVolatility:
     "Classifies the current market as high- or low-volatility. This regime flag helps the main model adjust position sizing and expected risk levels dynamically.",
   regimeState:
-    "Detects macroeconomic or sentiment states (e.g., bull, bear, neutral) using factor and yield-curve data. These states condition which portfolio rules are active.",
+    "Classification of the economic regime based on macroeconomic variables and correlation coefficients",
   llmSentiment:
     "Uses a large-language model to extract sentiment from 10-K and 10-Q filings. The resulting score is merged into fundamental signals used as input to the main gradient-boosting model.",
   mainGbm:

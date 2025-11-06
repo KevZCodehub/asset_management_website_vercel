@@ -1,11 +1,11 @@
 import TeamCard from "../components/TeamCard";
 
 const teamMembers = [
-  { name: "Daniel Boulanger", role: "Team Member", linkedin: "https://linkedin.com/in/daniel-boulanger" },
-  { name: "Tomas Codina", role: "Team Member", linkedin: "https://linkedin.com/in/tomas-codina" },
-  { name: "Victor Garon", role: "Team Member", linkedin: "https://linkedin.com/in/victor-garon" },
-  { name: "Francisco Rodriguez", role: "Team Member", linkedin: "https://linkedin.com/in/francisco-rodriguez" },
-  { name: "Kevin Zhang", role: "Team Member", linkedin: "https://linkedin.com/in/kevin-zhang" },
+  { name: "Daniel Boulanger", role: "Team Member", email: "daniel.boulanger@mail.mcgill.ca", linkedin: "https://www.linkedin.com/in/danielboulanger/" },
+  { name: "Tomas Codina", role: "Team Member", email: "tomas.codina@mail.mcgill.ca", linkedin: "https://www.linkedin.com/in/tomas-codina-65408a314/" },
+  { name: "Victor Garon", role: "Team Member", email: "victor.garon@mail.mcgill.ca", linkedin: "https://www.linkedin.com/in/victor-g-3744122aa/" },
+  { name: "Francisco Rodriguez", role: "Team Member", email: "francisco.rodriguez@mail.mcgill.ca", linkedin: "https://www.linkedin.com/in/francisco-rodriguez1/" },
+  { name: "Kevin Zhang", role: "Team Member", email: "kevin.zhang5@mail.mcgill.ca", linkedin: "https://www.linkedin.com/in/kevin-zhang-a668a0274/" },
 ];
 
 export default function AboutPage() {
